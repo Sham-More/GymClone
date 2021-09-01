@@ -17,27 +17,25 @@
 
 <body>
 	<div class="main">
-		 
-			<nav>
-				<li>
-					<i class="fas fa-dumbbell"></i>
-					<a href="#" class="logo">SHAPE</a>
-				</li>
-				
-				<ul>
-					
-					<li><a href="">Home</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Services</a></li>
-					<li><a href="">Gallery</a></li>
-					<li><a href="">Pricing</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
-			</nav>
- 
-	
-	
-	 
+
+		<!-- navbar -->
+
+		<nav>
+			<li>
+				<i class="fas fa-dumbbell"></i>
+				<a href="#" class="logo">SHAPE</a>
+			</li>
+
+			<ul>
+
+				<li><a href="index.html" onclick="home()" id="home" class="active">Home</a></li>
+				<li><a href="about.html"  >About</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">Pricing</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
 
 
 		<!-- Slider -->
@@ -45,12 +43,12 @@
 		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 
 			<div class="carousel-inner">
-			
+
 				<div class="carousel-item active" data-bs-interval="3000">
-					<img src="img/slides/1.jpg" class="d-block w-100" alt="..."  >
+					<img src="img/slides/1.jpg" class="d-block w-100" alt="...">
 				</div>
 				<div class="carousel-item" data-bs-interval="3000">
-					<img src="img/slides/2.jpg" class="d-block w-100" alt="..."  >
+					<img src="img/slides/2.jpg" class="d-block w-100" alt="...">
 				</div>
 
 			</div>
@@ -66,7 +64,7 @@
 			</button>
 		</div>
 
-		<!-- navbar -->
+
 
 
 
@@ -122,6 +120,32 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
 		crossorigin="anonymous"></script>
+
+	<script>
+
+		home = () => {
+
+			document.getElementById('home').className = "active";
+		}
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<!-- Option 2: Separate Popper and Bootstrap JS -->
 	<!--
