@@ -1,7 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+<<<<<<< HEAD
     font-family:'Times New Roman', Times, serif;
+=======
+<<<<<<< Updated upstream
+=======
+    font-family:sans-serif;
+>>>>>>> Stashed changes
+>>>>>>> pricing
 }
 .carousel slide{
     position: relative;
@@ -64,6 +71,7 @@ nav ul li a{
 nav ul li a:hover{
     color: red;
 }
+<<<<<<< HEAD
 .active{
     background-color:rgba(255, 0, 0, 0.904);
     color: white;
@@ -72,3 +80,179 @@ nav ul li a:hover{
 .active:hover{
     color: white;
 }
+=======
+<<<<<<< Updated upstream
+=======
+.active1{
+    background-color:#ec4141;
+    color: white;
+
+}
+.active1:hover{
+    color: white;
+}
+.image1-txt{
+    position:absolute;
+    left: 15%;
+    bottom:10%;
+    z-index: 2;
+    color: white;
+}
+
+/* section2 */
+
+.home-section2{
+    width:100%;
+    height: 650px;
+    background-color: #ec4141;
+    color: white;
+    text-align: center;
+    
+}
+.home-section2-h2{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.home-section2 p{
+    color: whitesmoke;
+}
+.home-services{
+    display: flex;
+    justify-content: center;
+    padding:20px 100px;
+    
+    
+}
+.service1{
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.service1 h2{
+    background-color: #ec4141;
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.service1 p{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+.service2{
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.service2 h2{
+    background-color: #ec4141;
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.service2 p{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+}
+.service3{
+    background-color: white;
+    border-radius: 10px;
+}
+.service3 h2{
+    background-color: #ec4141;
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.service3 p{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* section3 */
+
+.home-section3{
+    width:100%;
+    height: 570px;
+    background-color: #000000ec;
+    color: white;
+    text-align: center;
+    
+}
+.home-section3-h2{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.home-section3 p{
+    color: rgba(245, 245, 245, 0.377);
+}
+.section3-main{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top:60px;
+}
+.section3-main-col1{
+    margin-left: 100px;
+}
+.section3-main-col1-row1{
+    margin-bottom: 50px;
+}
+
+
+/* section4 */
+
+.home-section4{
+    width:100%;
+    height: 650px;
+    background-color:#272727;
+    color: white;
+    text-align: center;
+    
+}
+.home-section4-h2{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.home-section4 p,li{
+    color: rgba(245, 245, 245, 0.377);
+}
+.home-section4 li::before{
+content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.section4-main{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top:80px;
+}
+.section4-main-col1{
+    margin-right: 50px;
+}
+ 
+ 
+>>>>>>> Stashed changes
+>>>>>>> pricing
