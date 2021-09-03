@@ -1,15 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-<<<<<<< HEAD
+ 
     font-family:'Times New Roman', Times, serif;
-=======
-<<<<<<< Updated upstream
-=======
+ 
     font-family:sans-serif;
->>>>>>> Stashed changes
->>>>>>> pricing
 }
+ 
 .carousel slide{
     position: relative;
     z-index: -1;
@@ -71,7 +68,7 @@ nav ul li a{
 nav ul li a:hover{
     color: red;
 }
-<<<<<<< HEAD
+ 
 .active{
     background-color:rgba(255, 0, 0, 0.904);
     color: white;
@@ -80,9 +77,8 @@ nav ul li a:hover{
 .active:hover{
     color: white;
 }
-=======
-<<<<<<< Updated upstream
-=======
+ 
+ 
 .active1{
     background-color:#ec4141;
     color: white;
@@ -254,5 +250,4 @@ content: "\2022";
 }
  
  
->>>>>>> Stashed changes
->>>>>>> pricing
+ 
