@@ -1,10 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-<<<<<<< Updated upstream
-=======
     font-family:sans-serif;
->>>>>>> Stashed changes
 }
 .carousel slide{
     position: relative;
@@ -30,7 +27,6 @@ nav{
 }
 .fas {
     float: left;
-    
     text-decoration: none;
     color: white;
     padding: 28px 3px;
@@ -64,8 +60,6 @@ nav ul li a{
 nav ul li a:hover{
     color: red;
 }
-<<<<<<< Updated upstream
-=======
 .active1{
     background-color:#ec4141;
     color: white;
@@ -237,4 +231,3 @@ content: "\2022";
 }
  
  
->>>>>>> Stashed changes
