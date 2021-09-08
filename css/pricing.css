@@ -21,7 +21,10 @@
   height:70px;
   color:white;
 }
+  
 
+  
+}
 .main{
   margin-top: 120px;
   padding: 30px;
@@ -66,4 +69,21 @@
     #list,li{
     color:red;
     }
+<<<<<<< HEAD
  
+=======
+    .main,p,section{
+      font-style:bold;
+      color:white;
+      margin-left:20px;
+      padding-top: 50px;
+      }
+    
+    .describe{
+      color:white;
+      
+    }
+    
+    
+    
+>>>>>>> d90175f9230ce4903962f98fb311cad58bdb911f
