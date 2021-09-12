@@ -98,10 +98,12 @@ nav ul li a:hover{
 
   
 }
+
  
 .main{
   margin-top: 120px;
   padding: 30px;
+
   
 }
 #para{
@@ -117,14 +119,14 @@ nav ul li a:hover{
     list-style-type: none;
     padding: 50px;
     margin: 30px;
-    background-color:black;
+   
     
   }
   
    .main ul li{
-    font-size:20px;
+    font-size:15px;
     color:#ec4141 ;
-    border-left: 5px solid red ;
+    border-left: 1px solid red ;
     border-bottom-right-radius:20px;
     margin: 20px; /* Prevent double borders */
     margin-left:20px;
@@ -132,6 +134,8 @@ nav ul li a:hover{
     padding: 20px;
     list-style-type: none;
     display:block;
+    width: 20%;
+    height: 80px;
 
     
 
@@ -142,6 +146,28 @@ nav ul li a:hover{
     }
     #list,li{
     color:red;
+    }
+
+  
+    .first{
+      display:flex;
+      justify-content: center;
+    }
+    .second{
+      display:flex;
+      justify-content: center;
+    }
+    .third{
+      display:flex;
+      justify-content: center;
+    }
+    .fourth{
+      display:flex;
+      justify-content: center;
+    }
+    .fifth{
+      display:flex;
+      justify-content: center;
     }
 
     footer{
