@@ -76,6 +76,7 @@ nav ul li a:hover{
     height: 80px;
     background-color: #ec4141;
 }
+
 .portfolio h1{
     color: white;
     
@@ -123,6 +124,10 @@ body input{
     transition: 0.5s ease;
     font-weight: bold;
     color: white;
+}
+
+#All{
+    color: red;
 }
 
 .portfolio_menu label:hover{
